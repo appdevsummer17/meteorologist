@@ -1,3 +1,4 @@
+require "#{File.expand_path('../support/json_output_formatter', __FILE__)}"
 RSpec.configure do |config|
 
   config.expect_with :rspec do |expectations|

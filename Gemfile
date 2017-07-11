@@ -31,7 +31,7 @@ gem "turbolinks"
 # gem 'capistrano-rails', group: :development
 
 group :development, :test do
-  gem "grade_runner", github: "firstdraft/grade_runner", ref: "881cce30367bc9a5f15a3e4ac4cb48599dbecec2"
+  gem "grade_runner", github: "firstdraft/grade_runner"
   gem "web_git", github: "firstdraft/web_git"
   gem "dotenv-rails"
 end
